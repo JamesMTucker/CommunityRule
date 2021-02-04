@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>4QSerekh ha-Yaḥad<sup>d</sup> (4QS<sup>d</sup>) Fragment 1a iii</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>University of Toronto</publisher>
+                <pubPlace>Toronto, Canada</pubPlace>
+                <date when="2021"/>
+                <persName xml:id="JMT">James M. Tucker</persName>
+                <availability>This work is copyright 2021 by James M. Tucker | All Rights Reserved</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>140 Fg001</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc ana="fragment">
+                            <supportDesc>
+                                <dimensions type="bounding" unit="pixels">
+                                    <x/>216
+                                    <y/>993
+                                    <height/>759
+                                    <width/>1479
+                                </dimensions>
+                            </supportDesc>
+                            <condition>
+                                <p/>incomplete
+                            </condition>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate>100 BCE – 1 CE</origDate>
+                        </origin>
+                        <provenance type="found">Khirbet Qumran Cave 4</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.deadseascrolls.org.il/explore-the-archive/image/B-499627"/>
+        <graphic url="https://www.deadseascrolls.org.il/explore-the-archive/image/B-499628"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="frag-edition" xml:lang="heb" subtype="Diplomatic">
+                <lb n="1"/>
+                    <w coord="669,1536,237,159">איש</w>
+                    <w coord="459,1527,195,150">את</w>
+                    <w coord="282,1515,177,150">מד◦<gap reason="lost" quantity="null" unit="character"/></w>
+                <lb n="2"/>
+                    <w coord="591,1785,339,174">הרבים</w>
+                    <w coord="420,1683,165,234">אל</w>
+                    <w coord="252,1773,213,147">יד◦<gap reason="lost" quantity="null" unit="character"/></w>
+                <lb n="3"/>
+                    <w coord="600,1956,321,246">לרבים</w>
+                    <w coord="330,2007,249,132">אשר</w>
+                <lb n="4"/>
+                    <w coord="834,2337,96,126">◦<gap reason="lost" quantity="null" unit="character"/></w>
+                    <w coord="495,2313,282,132">◦◦◦◦<gap reason="lost" quantity="null" unit="character"/></w>
+            </div>
+        </body>
+    </text>
+</TEI>

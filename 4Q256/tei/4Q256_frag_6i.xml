@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>4QSerekh ha-Yaḥad<sup>b</sup> (4QS<sup>b</sup>) Fragment 6a i</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>University of Toronto</publisher>
+                <pubPlace>Toronto, Canada</pubPlace>
+                <date when="2021"/>
+                <persName xml:id="JMT">James M. Tucker</persName>
+                <availability>This work is copyright 2021 by James M. Tucker  | All Rights Reserved</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>905/1 Fg001</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc ana="fragment">
+                            <supportDesc>
+                                <dimensions type="bounding" unit="pixels">
+                                    <x/>2010
+                                    <y/>714
+                                    <height/>4716
+                                    <width/>3126
+                                </dimensions>
+                            </supportDesc>
+                            <condition>
+                                <p/>incomplete
+                            </condition>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate>100 BCE – 1 CE</origDate>
+                        </origin>
+                        <provenance type="found">Khirbet Qumran Cave 4</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.deadseascrolls.org.il/explore-the-archive/image/B-371114"/>
+        <graphic url="https://www.deadseascrolls.org.il/explore-the-archive/image/B-371115"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="frag-edition" xml:lang="heb" subtype="Diplomatic">
+                <lb n="1"/>
+                    <w coord="5476,1776,279,300">וכתכון</w>
+                    <w coord="5083,1782,318,198">העת</w>
+                    <w coord="4453,1614,546,285">להנחותם</w>
+                    <w coord="4015,1626,339,186">בדעה</w>
+                    <w coord="3718,1566,228,222">וכן</w>
+                    <w coord="3334,1380,348,288">לה[]◦</w>
+                <lb n="2"/>
+                    <w coord="5485,2163,276,222">[היח]ד</w>
+                    <w coord="5104,2061,327,312">להלך</w>
+                    <w coord="4714,2091,345,231">תמים</w>
+                    <w coord="4348,2031,300,192">איש</w>
+                    <w coord="4066,1974,234,180">את</w>
+                    <w coord="3691,1920,342,198">רעהו</w>
+                    <w coord="3301,1761,333,279">בכול</w>
+                <lb n="3"/>
+                    <w coord="4720,2337,663,390">להשכילם</w>
+                    <w coord="4321,2223,354,312">בכול</w>
+                    <w coord="3772,2361,501,171">הנמצא</w>
+                    <w coord="3154,2091,519,270">לעשות</w>
+                <lb n="4"/>
+                    <w coord="4654,2715,282,186">[ד]רכו</w>
+                    <w coord="4204,2583,381,297">מכול</w>
+                    <w coord="3880,2603,303,276">עול</w>
+                    <w coord="3286,2454,246,342">[וא]ל[ה]</w>
+                <lb n="5"/>
+                    <w coord="4576,3069,282,153">[שנ]אתו</w>
+                    <w coord="4093,3078,405,135">שנאת</w>
+                    <w coord="3961,3075,117,132">ע[ולם]</w>
+                <lb n="6"/>
+                    <w coord="4372,3231,339,243">[ו]עמל</w>
+                    <w coord="4126,3309,237,183">כפ[]</w>
+            </div>
+        </body>
+    </text>
+</TEI>

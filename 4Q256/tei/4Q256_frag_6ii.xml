@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>4QSerekh ha-Yaḥad<sup>b</sup> (4QS<sup>b</sup>) Fragment 6a ii</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>University of Toronto</publisher>
+                <pubPlace>Toronto, Canada</pubPlace>
+                <date when="2021"/>
+                <persName xml:id="JMT">James M. Tucker</persName>
+                <availability>This work is copyright 2021 by James M. Tucker  | All Rights Reserved</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>905/1 Fg001</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc ana="fragment">
+                            <supportDesc>
+                                <dimensions type="bounding" unit="pixels">
+                                    <x/>108
+                                    <y/>840
+                                    <height/>6070
+                                    <width/>2910
+                                </dimensions>
+                            </supportDesc>
+                            <condition>
+                                <p/>incomplete
+                            </condition>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate>100 BCE – 1 CE</origDate>
+                        </origin>
+                        <provenance type="found">Khirbet Qumran Cave 4</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.deadseascrolls.org.il/explore-the-archive/image/B-371114"/>
+        <graphic url="https://www.deadseascrolls.org.il/explore-the-archive/image/B-371115"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="frag-edition" xml:lang="heb" subtype="Diplomatic">
+                <lb n="1"/>
+                    <w coord="5164,1544,474,148">מאורות</w>
+                    <w coord="4686,1404,384,274">מזבול</w>
+                    <w coord="4216,1536,420,170">קודשו</w>
+                    <w coord="3932,1538,234,152">עם</w>
+                    <w coord="3376,1554,482,168">האספם</w>
+                    <w coord="2972,1478,328,330">למעון</w>
+                    <w coord="2610,1622,290,132">כבוד</w>
+                    <w coord="2122,1660,426,138">במבוא</w>
+                    <w coord="1596,1692,476,196">מועדים</w>
+                    <w coord="1334,1490,272,240">לימי</w>
+                    <w coord="1216,1760,330,150">חדש</w>
+                    <w coord="886,1826,272,140">יחד</w>
+                <lb n="2"/>
+                    <w coord="4892,1880,734,172">תקופותיהמה</w>
+                    <w coord="4624,1880,214,162">עם</w>
+                    <w coord="4078,1842,480,176">מסרותם</w>
+                    <w coord="3856,1872,170,132">זה</w>
+                    <w coord="3578,1738,228,294">לזה</w>
+                    <w coord="2870,1922,652,190">בהתחדשם</w>
+                    <w coord="2570,1982,244,166">יום</w>
+                    <w coord="2138,1872,376,278">גדול</w>
+                    <w coord="1652,1906,468,328">לקודש</w>
+                    <w coord="1094,2140,528,198">קודשים</w>
+                    <w coord="740,2190,310,176">ואות</w>
+                <lb n="3"/>
+                    <w coord="5156,2060,410,268">למפתח</w>
+                    <w coord="4810,2124,258,186">חס[די]</w>
+                    <w coord="4330,2062,410,276">[עו]ל[ם]</w>
+                    <w coord="3936,2146,354,166">[לר]אשי</w>
+                    <w coord="3414,2226,488,202">מועד</w>
+                    <w coord="3016,2166,348,270">בכול</w>
+                    <w coord="2834,2328,210,186">קץ</w>
+                    <w coord="2470,2350,320,166">נהיה</w>
+                    <w coord="1948,2260,428,292">בראשית</w>
+                    <w coord="1532,2448,354,218">ירחים</w>
+                    <w coord="856,2374,622,378">למועדיהם</w>
+                <lb n="4"/>
+                    <w coord="5186,2532,374,158">[ו]ימי</w>
+                    <w coord="3990,2530,336,260">[לז]כרון</w>
+                    <w coord="3236,2596,670,226">במועדיהם</w>
+                    <w coord="2790,2662,402,188">תרומת</w>
+                    <w coord="2296,2716,446,208">שפתים</w>
+                    <w coord="1794,2772,430,164">אברכנו</w>
+                    <w coord="1498,2818,232,212">כח[ק]</w>
+                    <w coord="1100,2906,362,170">חרות</w>
+                    <w coord="850,2768,230,330">לעד</w>
+                <lb n="5"/>
+                    <w coord="4122,2862,532,164">[ובתקו]פת</w>
+                    <w coord="3542,2916,520,214">מועדים</w>
+                    <w coord="3010,2860,446,332">בהשלם</w>
+                    <w coord="2698,3056,274,180">חוק</w>
+                    <w coord="2290,3082,368,182">תכונם</w>
+                    <w coord="1992,3128,236,158">יום</w>
+                    <w coord="1530,3122,412,164">מש[פטו]</w>
+                <lb n="6"/>
+                    <w coord="3838,3244,384,180">זרע</w>
+                    <w coord="3388,3294,370,172">ומעד</w>
+                    <w coord="2978,3338,358,154">דשא</w>
+                    <w coord="2500,3392,448,222">מועדי</w>
+                    <w coord="2144,3440,328,168">שנים</w>
+                <lb n="7"/>
+                    <w coord="3264,3634,388,160">חר[ות]</w>
+                    <w coord="2856,3662,348,160">ב[לשוני]</w>
+            </div>
+        </body>
+    </text>
+</TEI>

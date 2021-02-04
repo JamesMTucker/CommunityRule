@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>4QSerekh ha-Yaḥad<sup>d</sup> (4QS<sup>d</sup>) Fragment 3a</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>University of Toronto</publisher>
+                <pubPlace>Toronto, Canada</pubPlace>
+                <date when="2021"/>
+                <persName xml:id="JMT">James M. Tucker</persName>
+                <availability>This work is copyright 2021 by James M. Tucker  | All Rights Reserved</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>140 Fg003</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc ana="fragment">
+                            <supportDesc>
+                                <dimensions type="bounding" unit="pixels">
+                                    <x/>3200
+                                    <y/>1352
+                                    <height/>1881
+                                    <width/>2373
+                                </dimensions>
+                            </supportDesc>
+                            <condition>
+                                <p/>incomplete
+                            </condition>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                            <origDate>100 BCE – 1 CE</origDate>
+                        </origin>
+                        <provenance type="found">Khirbet Qumran Cave 4</provenance>
+                        <provenance type="observed"></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.deadseascrolls.org.il/explore-the-archive/image/B-511716"/>
+        <graphic url="https://www.deadseascrolls.org.il/explore-the-archive/image/B-511717"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="frag-edition" xml:lang="heb" subtype="Diplomatic">
+                <lb n="1"/>
+                    <w coord="4500,2045,280,115">[ו]להשיב</w>
+                    <w coord="4014,1876,498,284">לרשעים‎</w>
+                <lb n="2"/>
+                    <w coord="4694,2166,226,181"><gap reason="lost" quantity="null" unit="character"/>◦קומם</w>
+                    <w coord="4468,2235,220,143">מעון</w>
+                    <w coord="4169,2230,288,155">קודש</w>
+                    <w coord="3756,2221,412,162">קודשים‎</w>
+                <lb n="3"/>
+                    <w coord="4865,2273,203,90"><gap reason="lost" quantity="null" unit="character"/>ל</w>
+                    <w coord="4607,2322,368,289">להקים</w>
+                    <w coord="4354,2481,264,160">ברית</w>
+                    <w coord="4014,2401,336,247">לחקות</w>
+                    <w coord="3721,2375,310,274">עולם</w>
+                <lb n="4"/>
+                    <w coord="4743,2718,250,123"><gap reason="lost" quantity="null" unit="character"/>סוד</w>
+                    <w coord="4419,2737,336,156">היחד</w>
+                    <w coord="4041,2770,392,183">שנתים</w>
+                    <w coord="3769,2797,290,180">ימים‎</w>
+                <lb n="5"/>
+                    <w coord="4390,2916,310,211"><gap reason="lost" quantity="null" unit="character"/>◦ראל</w>
+                    <w coord="4042,3019,397,172">ונמצא‎</w>
+                <lb n="6"/>
+                    <w coord="4482,3133,306,212">יבדלו</w>
+                    <w coord="4313,3256,164,153">מ<gap reason="lost" quantity="null" unit="character"/></w>
+                <lb n="7"/>
+                    <w coord="4562,3473,277,138"><gap reason="lost" quantity="null" unit="character"/>שות</w>
+                    <w coord="4383,3418,204,203">כל</w>
+            </div>
+        </body>
+    </text>
+</TEI>

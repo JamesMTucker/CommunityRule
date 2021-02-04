@@ -1,4 +1,5 @@
 env
 src
+*.DS_Store
 *.docx
 .vscode
